@@ -25,7 +25,7 @@ public class CollectMask : MonoBehaviour
         {
             if (enemy != null)
             {
-                enemy.StartCoroutine(nameof(AIController.StopMovement));
+                enemy.TriggerMaskEffect();
             }
             if (spawner != null && spawnPoint != null)
             {
