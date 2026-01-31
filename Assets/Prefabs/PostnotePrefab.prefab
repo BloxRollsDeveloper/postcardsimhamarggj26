@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7af6bf5eb0d9750479754a052a41c1c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Collectable
+  enemyAgent: {fileID: 3485007797095552928, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
 --- !u!114 &8117788523279110969
 MonoBehaviour:
   m_ObjectHideFlags: 0

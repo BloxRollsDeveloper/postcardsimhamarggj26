@@ -1,19 +1,21 @@
 using UnityEngine;
-using UnityEngine.AI;
 
 public class Collectable : MonoBehaviour
 {
     private PostNoteSpawn spawner;
     private Transform spawnPoint;
-    
-    [Header("Enemy")]
-    [SerializeField]
-    private NavMeshAgent enemyAgent;
+
+    private AIController enemy;
 
     public void Init(PostNoteSpawn spawner, Transform spawnPoint)
     {
         this.spawner = spawner;
         this.spawnPoint = spawnPoint;
+    }
+
+    private void Start()
+    {
+        enemy = FindObjectOfType<AIController>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -24,6 +26,10 @@ public class Collectable : MonoBehaviour
             if (scoreManager != null)
             {
                 scoreManager.AddScore();
+            }
+            if (enemy != null)
+            {
+                enemy.IncreaseSpeed(0.5f);
             }
             if (spawner != null && spawnPoint != null)
             {
