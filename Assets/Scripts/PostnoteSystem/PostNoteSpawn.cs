@@ -37,14 +37,17 @@ public class PostNoteSpawn : MonoBehaviour
             {
                 int pointIndex = Random.Range(0, availableSpawnPoints.Count);
                 Transform spawnPoint = availableSpawnPoints[pointIndex];
-                
+
                 int prefabIndex = Random.Range(0, postNotePrefabs.Length);
                 GameObject spawnedNote = Instantiate(postNotePrefabs[prefabIndex], spawnPoint.position, Quaternion.identity);
-
+                Collectable collectable = spawnedNote.GetComponent<Collectable>();
+                if (collectable != null)
+                {
+                    collectable.Init(this, spawnPoint);
+                }
                 currentSpawnCount++;
                 availableSpawnPoints.RemoveAt(pointIndex);
             }
-            
             yield return new WaitForSeconds(spawnInterval);
         }
     }
@@ -52,7 +55,6 @@ public class PostNoteSpawn : MonoBehaviour
     public void DecrementSpawnCount(Transform freedSpawnPoint)
     {
         currentSpawnCount = Mathf.Max(0, currentSpawnCount - 1);
-
         if (!availableSpawnPoints.Contains(freedSpawnPoint))
         {
             availableSpawnPoints.Add(freedSpawnPoint);
