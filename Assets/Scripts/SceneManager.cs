@@ -6,7 +6,7 @@ public class SceneManager : MonoBehaviour
 {
 public void StartGame()
     {
-        SceneManagement.LoadScene("SampleScene");
+        // SceneManagement.LoadScene("SampleScene");
         Debug.Log("Entering Main Scene...");
     }
 }
