@@ -55,23 +55,9 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "3482c095a2bb4eb3b3b5b7c87cc9cafa"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "a2f3a8752dbe4bdbae42a53e4ff46ff5"
-                },
-                "m_SlotId": 2
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "46fb5196c16a446b808d834a0447a732"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 4
             },
             "m_InputSlot": {
                 "m_Node": {
@@ -85,7 +71,7 @@
                 "m_Node": {
                     "m_Id": "7c77bccf8bcf438ca9d8cd5e09988c19"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 4
             },
             "m_InputSlot": {
                 "m_Node": {
@@ -167,15 +153,15 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": -931.9999389648438,
-            "y": 11.999998092651368
+            "x": -760.0000610351563,
+            "y": -57.59999465942383
         },
         "m_Blocks": []
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": -931.9999389648438,
-            "y": 211.99996948242188
+            "x": -760.0000610351563,
+            "y": 142.40000915527345
         },
         "m_Blocks": [
             {
@@ -739,7 +725,7 @@
         "m_SerializableColors": []
     },
     "m_TextureType": 0,
-    "m_NormalMapSpace": 0,
+    "m_NormalMapSpace": 1,
     "m_EnableGlobalMipBias": true,
     "m_MipSamplingMode": 0
 }
@@ -1020,7 +1006,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":-1008301579157283121,\"guid\":\"76e217c5de924e84fb61d307370994a8\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"ebe2ce19d47058244ac4fc4a9bab9d94\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -1427,7 +1413,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":-1304905567622442630,\"guid\":\"76e217c5de924e84fb61d307370994a8\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"33b4ece88e4f8cf4882ccfca1c44bafc\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_DefaultType": 0
