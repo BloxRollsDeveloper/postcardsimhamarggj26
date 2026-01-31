@@ -23,13 +23,16 @@ public class AIController : MonoBehaviour
     {
         agent.speed += amount;
     }
-
-    public IEnumerable<WaitForSeconds> StopMovement()
+    
+    public IEnumerator StopMovement()
     {
         agent.isStopped = true;
         animator.SetBool("isStanding", true);
+
         yield return new WaitForSeconds(6f);
+
         agent.isStopped = false;
         animator.SetBool("isStanding", false);
     }
+
 }
