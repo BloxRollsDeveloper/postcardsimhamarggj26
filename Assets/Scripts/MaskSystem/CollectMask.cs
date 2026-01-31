@@ -6,6 +6,7 @@ public class CollectMask : MonoBehaviour
     private Transform spawnPoint;
 
     private AIController enemy;
+    private Animator animator;
 
     public void Init(MaskSpawn spawner, Transform spawnPoint)
     {
