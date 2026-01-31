@@ -5,7 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public void ChangeScene()
+    public void ChangeCutscene()
+    {
+        SceneManager.LoadScene("Cutscene");
+    }
+
+    public void ChangeGameScene()
     {
         SceneManager.LoadScene("TestScene");
     }
