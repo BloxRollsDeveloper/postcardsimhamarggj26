@@ -1,9 +1,14 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Collectable : MonoBehaviour
 {
     private PostNoteSpawn spawner;
     private Transform spawnPoint;
+    
+    [Header("Enemy")]
+    [SerializeField]
+    private NavMeshAgent enemyAgent;
 
     public void Init(PostNoteSpawn spawner, Transform spawnPoint)
     {
