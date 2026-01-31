@@ -2178,42 +2178,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaskPrefab
       objectReference: {fileID: 0}
-    - target: {fileID: 6942798194714919881, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_Size.x
-      value: 0.934375
-      objectReference: {fileID: 0}
-    - target: {fileID: 6942798194714919881, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_Size.y
-      value: 0.903125
-      objectReference: {fileID: 0}
-    - target: {fileID: 6942798194714919881, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5932b797ce8b9524e81fa244011d24d8, type: 3}
-    - target: {fileID: 6942798194714919881, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6942798194714919881, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: cc399f53878a68b4e82382c988cfc180, type: 2}
-    - target: {fileID: 8654820189086021635, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_Size.x
-      value: 0.5501671
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654820189086021635, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_Size.z
-      value: 0.41016424
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654820189086021635, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_Center.x
-      value: -0.039489746
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654820189086021635, guid: 739bd481379abd14188b38167361a3f2, type: 3}
-      propertyPath: m_Center.z
-      value: 0.026540995
-      objectReference: {fileID: 0}
     - target: {fileID: 8934447166338399757, guid: 739bd481379abd14188b38167361a3f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.307772
