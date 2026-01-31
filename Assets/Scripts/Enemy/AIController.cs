@@ -21,5 +21,10 @@ public class AIController : MonoBehaviour
     {
         agent.speed += amount;
     }
+
+    public void StopMovement()
+    {
+        agent.isStopped = true;
+    }
     
 }
