@@ -106,7 +106,6 @@ GameObject:
   - component: {fileID: 2873567792849276660}
   - component: {fileID: 4143082688530942442}
   - component: {fileID: 3783261579738550102}
-  - component: {fileID: 8679068317877850651}
   - component: {fileID: 8504116549121857752}
   m_Layer: 0
   m_Name: Player
@@ -267,28 +266,6 @@ MonoBehaviour:
   _cursorSensitivity: 0.02
   _cursorSmoothTime: 0.03
   _lockCursor: 1
---- !u!114 &8679068317877850651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208836630833659684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcaf038e12efb5d469531504ad850cd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
-  _projectilePrefab: {fileID: 1177886055810975628, guid: eebbfd89e3936414d88930058ca2cd76, type: 3}
-  _projectileSpawnPoint: {fileID: 7757388843088456384}
-  _projectileSpeed: 0.5
-  _projectileDamage: 20
-  _hitScanRange: 20
-  _usingProjectile: 0
-  _currentAmmo: 20000
-  _maxAmmo: 40
-  _fireRate: 0.01
-  _camera: {fileID: 1386487982518312080}
 --- !u!143 &8504116549121857752
 CharacterController:
   m_ObjectHideFlags: 0
