@@ -278,8 +278,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": -0.0000171661376953125,
+            "y": 229.60000610351563
         },
         "m_Blocks": [
             {
@@ -1116,7 +1116,7 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "m_SerializedTexture": "",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"9bc8f6778ee74fe449c8fd283804b95d\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,
