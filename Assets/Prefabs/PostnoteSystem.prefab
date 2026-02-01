@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7697377031666107935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8832488569553158960}
+  - component: {fileID: 5213982950521584564}
+  m_Layer: 0
+  m_Name: PostnoteSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8832488569553158960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697377031666107935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.45734, y: -3.03261, z: 6.96336}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5213982950521584564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697377031666107935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46a5a1d1c146d443a886c86629e6813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PostNoteSpawn
+  postNotePrefabs:
+  - {fileID: 4179677715592758915, guid: 86519e193dc7db947b3f7bb4eef6d6ba, type: 3}
+  - {fileID: 5409146652072274873, guid: 5c20150606a955b4289bc9ebf66f322a, type: 3}
+  - {fileID: 7748277634421838784, guid: a1c3a55c3295f814d8aad985ef357adb, type: 3}
+  - {fileID: 598392505544761615, guid: 1332ba8135aa2004db00d69e7fbb1a35, type: 3}
+  - {fileID: 499801226233425349, guid: f5bbb5d7350312548aa57a78f8472de1, type: 3}
+  - {fileID: 4387384084256100010, guid: 24c3fde46bef2034ebcf8e8507eb025c, type: 3}
+  - {fileID: 8077517372205903388, guid: b0a0a25e32e834b42ab521d4bbca5873, type: 3}
+  - {fileID: 2151049461856668920, guid: ca8c2b738559c3f488210dce7a23a541, type: 3}
+  - {fileID: 3408910727672079209, guid: 4ee44ae84f04c4e489de57ca7b1db6ee, type: 3}
+  - {fileID: 8457117129145497454, guid: 248b5b832b95188429ecc51d0a3dce9d, type: 3}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnLimit: 3
+  spawnInterval: 5

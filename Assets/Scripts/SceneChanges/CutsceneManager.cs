@@ -1,27 +1,25 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class CutsceneManager : MonoBehaviour
 {
-    public List<GameObject> panels = new List<GameObject>();
-    public float panelDuration = 4f;
-
-    private int currentPanelIndex = 0;
+    private VideoPlayer  videoPlayer;
 
     void Start()
     {
-        ShowOnlyCurrentPanel();
-        // StartCoroutine(PlayCutscene());
+        if (videoPlayer == null)
+        {
+            videoPlayer = GetComponent<VideoPlayer>();
+        }
+
+        videoPlayer.loopPointReached += OnVideoEnd;
+        
+        videoPlayer.Play();
     }
 
-    void ShowOnlyCurrentPanel()
+    void OnVideoEnd(VideoPlayer vp)
     {
-        for (int i = 0; i < panels.Count; i++)
-        {
-            panels[i].SetActive(i == currentPanelIndex);
-        }
+        SceneManager.LoadScene("TestScene");
     }
-    
 }

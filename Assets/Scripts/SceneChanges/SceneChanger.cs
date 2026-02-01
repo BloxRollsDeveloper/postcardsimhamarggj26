@@ -9,9 +9,4 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Cutscene");
     }
-
-    public void ChangeGameScene()
-    {
-        SceneManager.LoadScene("TestScene");
-    }
 }
