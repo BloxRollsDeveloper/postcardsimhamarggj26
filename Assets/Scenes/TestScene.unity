@@ -1805,17 +1805,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3006642588701348760, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 2554bcac7f116a4429c92ee20270dad7, type: 2}
     - target: {fileID: 6717580576162289980, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6910013659650681724, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.274065
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 6910013659650681724, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1823,7 +1819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6910013659650681724, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.38483414
+      value: -2.22
       objectReference: {fileID: 0}
     - target: {fileID: 6910013659650681724, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1853,10 +1849,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8160578883420017938, guid: e2c22d170db10e349909cb1e759f22b1, type: 3}
-      propertyPath: maskCanvasPrefab
-      value: 
-      objectReference: {fileID: 5564947443951951052, guid: 4097156b0d9836746b44d1462cb49192, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

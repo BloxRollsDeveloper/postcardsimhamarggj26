@@ -46,7 +46,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6717580576162289980}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2554bcac7f116a4429c92ee20270dad7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -54,14 +54,14 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.5168552
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -0.0003425479, y: 0, z: 0.00073331594}
 --- !u!114 &1746082093290881654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0185110cae006042a06f415d37e9e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
-  maskCanvasPrefab: {fileID: 0}
+  maskCanvasPrefab: {fileID: 5564947443951951052, guid: 4097156b0d9836746b44d1462cb49192, type: 3}
 --- !u!212 &7807867899260695195
 SpriteRenderer:
   serializedVersion: 2

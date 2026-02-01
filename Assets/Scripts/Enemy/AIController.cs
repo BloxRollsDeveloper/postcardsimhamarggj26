@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class AIController : MonoBehaviour
 {
@@ -21,6 +22,14 @@ public class AIController : MonoBehaviour
     private void Update()
     {
         agent.SetDestination(destination.transform.position);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if  (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Touched the player");
+            SceneManager.LoadScene("GameOver");
+        }
     }
 
     public void IncreaseSpeed(float amount)
