@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   _moveSpeed: 5
-  _jumpSpeed: 3
+  _jumpSpeed: 0
   _gravity: -9.81
   _moveSmoothTime: 0.1
 --- !u!114 &3783261579738550102
