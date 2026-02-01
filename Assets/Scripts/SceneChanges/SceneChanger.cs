@@ -7,11 +7,6 @@ public class SceneChanger : MonoBehaviour
 {
     public void ChangeCutscene()
     {
-        SceneManager.LoadScene("Cutscene");
-    }
-
-    public void SkipCutscene()
-    {
         SceneManager.LoadScene("Sceneworld");
     }
 }

@@ -7,4 +7,9 @@ public class Manager : MonoBehaviour
   {
     SceneManager.LoadScene("Sceneworld");
   }
+
+  public void RetryGame()
+  {
+    SceneManager.LoadScene("Sceneworld");
+  }
 }
