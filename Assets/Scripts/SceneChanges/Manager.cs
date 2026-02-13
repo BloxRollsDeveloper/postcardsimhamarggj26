@@ -13,3 +13,4 @@ public class Manager : MonoBehaviour
     SceneManager.LoadScene("Sceneworld");
   }
 }
+ 
