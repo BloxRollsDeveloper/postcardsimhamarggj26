@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
-  public void OnClick()
+  public void ReturnToMainMenu()
   {
-    SceneManager.LoadScene("Sceneworld");
+    SceneManager.LoadScene("MainMenu");
   }
 
   public void RetryGame()

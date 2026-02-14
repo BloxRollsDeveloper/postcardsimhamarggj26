@@ -15,4 +15,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Sceneworld");
     }
+
+    public void SkipCutSceneNight()
+    {
+        SceneManager.LoadScene("DarkSceneWorld");
+    }
 }
