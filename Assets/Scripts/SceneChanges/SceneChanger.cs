@@ -1,23 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
 public class SceneChanger : MonoBehaviour
 {
-    public void ChangeCutscene()
+    public InputAction DayModeButton;
+    public InputAction NightModeButton;
+    
+    private void OnEnable()
     {
-        SceneManager.LoadScene("Cutscene");
+        DayModeButton.Enable();
+        NightModeButton.Enable();
     }
 
-    public void SkipCutscene()
+    private void OnDisable()
     {
-        SceneManager.LoadScene("Sceneworld");
+        DayModeButton.Disable();
+        NightModeButton.Disable();
     }
 
-    public void SkipCutSceneNight()
+    public void Update()
     {
-        SceneManager.LoadScene("DarkSceneWorld");
+        if (DayModeButton.WasPressedThisFrame())
+        {
+            SceneManager.LoadScene("Sceneworld");
+        }
+        if (NightModeButton.WasPressedThisFrame())
+        {
+            SceneManager.LoadScene("DarkSceneWorld");
+        }
     }
 }

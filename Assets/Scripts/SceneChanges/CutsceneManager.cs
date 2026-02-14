@@ -20,6 +20,6 @@ public class CutsceneManager : MonoBehaviour
 
     void OnVideoEnd(VideoPlayer vp)
     {
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("Sceneworld");
     }
 }
